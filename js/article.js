@@ -23,16 +23,24 @@ const mainMenuItems = document.querySelectorAll('.navigation__item');
 
 const articleMain = document.querySelector('.article-main');
 
-burgerMenu.onclick = function() {
+burgerMenu.addEventListener('click', function() {
     burgerPopup.classList.toggle('active');
     articleMain.classList.toggle('active');
-}
+})
 
 mainMenuItems.forEach(menu => {
     menu.onclick = function() {
-        burgerMenu.click();
+        if (burgerPopup.classList.contains('active')) {
+            burgerMenu.click();
+        }
     }
 })
+
+indexMain.onclick = function() {
+    if (burgerPopup.classList.contains('active')) {
+            burgerMenu.click();
+        }
+}
 
 // comment
 
