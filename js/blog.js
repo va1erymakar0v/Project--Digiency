@@ -36,11 +36,13 @@ mainMenuItems.forEach(menu => {
 	}
 })
 
-indexMain.onclick = function() {
-	if (burgerPopup.classList.contains('active')) {
-            burgerMenu.click();
-        }
-}
+// const blogMain = document.querySelector('.blog-main');
+
+// blogMain.onclick = function() {
+// 	if (burgerPopup.classList.contains('active')) {
+//             burgerMenu.click();
+//         }
+// }
 
 // sidebar
 

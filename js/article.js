@@ -36,11 +36,11 @@ mainMenuItems.forEach(menu => {
     }
 })
 
-indexMain.onclick = function() {
-    if (burgerPopup.classList.contains('active')) {
-            burgerMenu.click();
-        }
-}
+// indexMain.onclick = function() {
+//     if (burgerPopup.classList.contains('active')) {
+//             burgerMenu.click();
+//         }
+// }
 
 // comment
 

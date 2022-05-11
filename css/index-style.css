@@ -1179,6 +1179,10 @@ main {
 .contacts__map {
 	margin: 60px 0 0 0;
 }
+
+.contacts__map iframe {
+	width: 100%;
+}
 /*---------------------------------------------------FOOTER*/
 .footer__area {
 	color: var(--white);
